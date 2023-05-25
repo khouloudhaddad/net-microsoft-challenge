@@ -12,4 +12,5 @@
 Razor Pages applique la séparation des responsabilités avec une classe C# PageModel, en encapsulant les propriétés de données et les opérations logiques étendues à sa page Razor, et en définissant des gestionnaires de pages pour les requêtes HTTP.</p>
 
 - cd `ContosoPizza` 
-- 
+- dotnet watch
+- dotnet new page --name PizzaList --namespace ContosoPizza.Pages --output Pages
